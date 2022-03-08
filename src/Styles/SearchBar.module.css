@@ -1,0 +1,26 @@
+.div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SearchBar {
+  width: clamp(350px, 250px, 200px);
+  padding: 1em 1em;
+  border-radius: 1.5em;
+  border: none;
+  box-shadow: var(--shadow2);
+  outline: none;
+  margin-right: 0.1em;
+}
+.btn {
+  margin-top: 0.5em;
+  border: unset !important;
+  box-shadow: var(--shadow2);
+  padding: 0.52em;
+  background-color: var(--primary) !important;
+  color: var(--secondary) !important;
+}
+.btn:hover {
+  border: inherit !important;
+}

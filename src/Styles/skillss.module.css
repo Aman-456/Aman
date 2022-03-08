@@ -1,0 +1,40 @@
+.SkillsTech {
+  gap: 1em;
+  align-items: unset;
+  justify-content: center;
+}
+.skills,
+.tools {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.title {
+  margin-bottom: 3em !important;
+}
+.SkillsTech h2 {
+  margin-bottom: 1em;
+}
+.SkillsTech span {
+  display: block;
+  display: flex;
+  align-items: center;
+  background-color: var(--primary);
+  color: white;
+  padding: 0.5em 0.5em;
+}
+.SkillsTech span svg {
+  font-size: 2em;
+  margin-right: 1em;
+}
+
+@media (max-width: 650px) {
+  .SkillsTech {
+    flex-direction: column;
+  }
+  .skills,
+  .tools {
+    width: 100%;
+  }
+}

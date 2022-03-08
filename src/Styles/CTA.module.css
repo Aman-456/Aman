@@ -1,0 +1,42 @@
+.CTA {
+  background-color: var(--primary);
+  color: var(--secondary) !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/coding.jpg");
+  background-size: cover;
+}
+
+.CTA__container {
+  height: 300px;
+  text-align: center;
+  align-items: center;
+}
+
+.button > * {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.CTA__container h1 {
+  color: var(--secondary);
+  font-weight: 600;
+  font-size: var(--fs2);
+  margin: 0;
+}
+.CTA h1::after,
+.CTA h1::before {
+  display: none;
+}
+
+@media (max-width: 786px) {
+  .CTA__container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 450px) {
+  .CTA__container h1 {
+    font-size: calc(var(--fs3) + 0.5rem);
+  }
+}

@@ -1,0 +1,68 @@
+.Aboutme {
+  background-color: var(--primary);
+  min-width: 100vw;
+  min-height: 100vh;
+  padding-top: 9em;
+}
+
+.Aboutme * {
+  color: var(--secondary);
+}
+
+.Aboutme h1::after,
+.Aboutme h1::before {
+  background-color: white;
+}
+.design {
+  position: relative;
+  background-color: var(--secondary);
+}
+
+.design::before,
+.design::after {
+  position: absolute;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.33);
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  opacity: 0.9;
+  top: -20em;
+  left: 24%;
+  transform: translate(-50%);
+}
+.design::after {
+  top: -4em;
+  right: 0 !important;
+  left: unset;
+  width: 100px;
+  height: 100px;
+}
+.main__content {
+  margin-top: 8em;
+}
+.p {
+  font-size: var(--fs3);
+}
+.h2 {
+  font-size: 2em;
+  margin-top: 0.5em !important;
+  line-height: 1.4;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.para {
+  margin-top: 2em;
+}
+.para * {
+  text-align: justify;
+  text-transform: capitalize !important;
+  line-height: 2;
+  letter-spacing: 0.5px;
+}
+
+.img img {
+  width: 100% !important;
+  filter: brightness(60%);
+  box-shadow: var(--shadow1);
+}

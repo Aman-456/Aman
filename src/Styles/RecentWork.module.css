@@ -1,0 +1,129 @@
+.RecentWork {
+  text-align: center;
+  overflow-x: scroll;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  scrollbar-width: none;
+}
+.RecentWork__heading {
+  margin: 2em 0 !important;
+  font-size: var(--fs2) !important;
+}
+.RecentWork__container {
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 100% !important;
+  scroll-behavior: smooth;
+  -webkit-animation: scroll 10s ease-in-out infinite alternate;
+  animation: scroll 10s ease-in-out infinite alternate;
+  z-index: -1;
+}
+
+.RecentWork::-webkit-scrollbar,
+.RecentWork__container::-webkit-scrollbar {
+  display: none;
+}
+
+.RecentWork__container .single__img {
+  min-width: max(calc(100% - 90% - 2rem), 180px) !important;
+  height: 250px;
+  border-radius: 0.8rem;
+  box-shadow: var(--shadow2);
+  transition: var(--transition1);
+  cursor: pointer;
+  transform: scale(1);
+}
+.blackshadow {
+  box-shadow: var(--shadow1) !important;
+}
+.RecentWork__container:hover {
+  -webkit-animation-play-state: paused !important;
+  animation-play-state: paused !important;
+}
+
+.single__img:hover {
+  transform: scale(1.05) !important;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-20%);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-20%);
+  }
+}
+.single__img .img {
+  transition: none;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 0.8rem;
+}
+
+@media (max-width: 786px) {
+  .single__img {
+    cursor: -webkit-grabbing !important;
+    cursor: grabbing !important;
+  }
+
+  .RecentWork__container .single__img:hover {
+    transform: scale(1) !important;
+  }
+
+  @-webkit-keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}
+@media (max-width: 550px) {
+  .RecentWork__container {
+    -webkit-animation: scroll 15s ease-in-out infinite alternate;
+    animation: scroll 15s ease-in-out infinite alternate;
+  }
+
+  @-webkit-keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-195%);
+    }
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-195%);
+    }
+  }
+}

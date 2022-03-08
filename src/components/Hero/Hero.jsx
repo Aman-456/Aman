@@ -1,0 +1,50 @@
+/* eslint-disable no-unused-vars */
+import React, { useRef, useState } from 'react'
+import styles from "../../Styles/Hero.module.css"
+import { FaAngleDoubleDown } from "react-icons/fa";
+import Iframe from '../Iframe/Iframe';
+import { list } from "../../Data/image"
+function Hero() {
+    const btn = useRef(null);
+    const hero = useRef(null);
+    const [iframe, setiframe] = useState(false);
+
+    window.addEventListener("scroll", () => {
+        if (window.scrollY >= 240 && btn.current) {
+            btn.current.classList?.add("sticky");
+        }
+        else if (btn.current) btn.current.classList?.remove("sticky");
+    })
+    return (
+        <div className={`${styles.Hero} container-f`} ref={hero} id='hero'>
+            <div className={`container margin3 flex ${styles.Hero__container}`}>
+                <div className={`${styles.left} flex `} >
+                    <div className={`flex ${styles.left__container}`}>
+                        <p className={styles.hero__tag}>My Passion Is To Create Top Of The Mark Designs For You</p>
+                        <div className={styles.left__container__textfield}>
+                            <p>Aman Ullah</p>
+                            <p><span>FrontEnd Developer</span> . <span>ReactJs</span> . <span>Sass</span></p>
+                        </div>
+                        <div className={`${styles.buttons} flex`}>
+                            <a className={`btn`} ref={btn} href="#Portfolio">Portfolio</a>
+                            <button
+                                className={`btn`}
+                                onClick={() => setiframe(true)}
+                            >Cv
+                            </button>
+                        </div>
+                        <a href="#projectsection" className={styles.flat__icon__down}>
+                            <FaAngleDoubleDown />
+                        </a>
+                    </div>
+                </div>
+                <div className={`${styles.right} flex `} >
+                    <img src={list.me} alt="" className={``} />
+                </div>
+            </div>
+            {iframe && <Iframe img={iframe} seti={setiframe} />}
+        </div >
+    )
+}
+
+export default Hero

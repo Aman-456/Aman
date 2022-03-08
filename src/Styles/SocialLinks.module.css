@@ -1,0 +1,14 @@
+.Icons__div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.Icon {
+  font-size: 2rem;
+  transition: var(--transition2);
+  cursor: pointer;
+}
+.Icon:hover {
+  transform: scale(1.15);
+}

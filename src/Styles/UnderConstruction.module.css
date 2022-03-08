@@ -1,0 +1,22 @@
+.UnderConstruction {
+  margin: 10rem auto 5rem auto;
+  background-color: var(--primary);
+  color: var(--secondary);
+  width: 70%;
+  padding: 3rem 2rem;
+  border-radius: 1rem;
+  font-size: clamp(1.5rem, 0.89em, 1rem);
+  text-transform: capitalize;
+}
+.UnderConstruction .home {
+  display: block;
+  margin-top: 1rem;
+  color: rgb(255, 72, 0);
+}
+@media (max-width: 600px) {
+  .UnderConstruction {
+    width: 90%;
+    font-size: 1rem;
+    font-weight: normal;
+  }
+}
