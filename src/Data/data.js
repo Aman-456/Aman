@@ -1,5 +1,5 @@
 import { list1 } from "./image"
-const { homedecore, kabaar, restaurantwp, singlepage, hosting, portfolio, blackjack } = list1
+const { homedecore, kabaar, restaurantwp, singlepage, hosting, portfolio, blackjack, JustAsk } = list1
 const data = [
     {
         "url": "https://homedecore-1.netlify.app/",
@@ -56,6 +56,14 @@ const data = [
         "description": "A simple Vanilla js game with a bit css touch ",
         "tag": ['FrontEnd', 'Html5', 'Css3', 'Javascript'],
         "id": "BlackJack"
+    },
+    {
+        "url": "https://juskask.netlify.app/",
+        "title": "JustAsk! ",
+        "img": JustAsk,
+        "description": "Mern Forum app (in Production) ",
+        "tag": ['FullStack', 'Html5', 'SCSS', 'Javascript', 'MERN'],
+        "id": "JustAsk"
     },
 ]
 
