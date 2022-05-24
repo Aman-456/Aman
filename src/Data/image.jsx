@@ -9,9 +9,10 @@ import Coding from "../images/coding.jpg"
 import cv from "../images/cv.PNG"
 import laptop from "../images/laptop.jpeg"
 import blackjack from "../images/blackjack.webp"
+import JustAsk from "../images/JustAsk.PNG"
 import pdf from "../Data/CV.pdf"
 
 
 
-export const list1 = { homedecore, restaurantwp, kabaar, singlepage, hosting, portfolio, blackjack }
+export const list1 = { homedecore, restaurantwp, kabaar, singlepage, hosting, portfolio, blackjack, JustAsk }
 export const list = { me, homedecore, restaurantwp, kabaar, singlepage, hosting, portfolio, Coding, cv, laptop, pdf }

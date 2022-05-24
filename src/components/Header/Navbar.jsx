@@ -47,7 +47,7 @@ function Navbar() {
                         <button className={styles.right__btn} onClick={() => setcv(true)}>cv</button>
                     </div>
                 </div>
-            </div >
+            </div>
             <div className={`padding ${styles.aside}`} ref={aside} >
                 <Aside burger={burger} aside={aside} setopen={setopen} open={open} />
                 {open &&
