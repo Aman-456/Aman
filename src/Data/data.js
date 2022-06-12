@@ -1,6 +1,22 @@
 import { list1 } from "./image"
-const { homedecore, kabaar, restaurantwp, singlepage, hosting, portfolio, blackjack, JustAsk } = list1
+const { homedecore, MeenaBazaar, restaurantwp, singlepage, hosting, portfolio, blackjack, JustAsk, crofundsme } = list1
 const data = [
+    {
+        "url": "https://justask1.netlify.app/",
+        "title": "JustAsk! ",
+        "img": JustAsk,
+        "description": "Mern Forum app (in Production) ",
+        "tag": ['FullStack', 'MERN', "React-Js", "Javascript", "Chakra-UI", 'Html5', 'SCSS',],
+        "id": "JustAsk"
+    },
+    {
+        "url": "https://crofundme.netlify.app/",
+        "title": "CrofundsMe! ",
+        "img": crofundsme,
+        "description": "Mern Forum app  ",
+        "tag": ["FrontEnd", "React-Js", "Javascript", "ANT-D", 'Html5', 'SCSS',],
+        "id": "JustAsk"
+    },
     {
         "url": "https://homedecore-1.netlify.app/",
         "title": "Home Decore",
@@ -11,8 +27,8 @@ const data = [
     },
     {
         "url": "https://the-sellpoint.netlify.app/",
-        "title": "Sell Point",
-        "img": kabaar,
+        "title": "MEENA BAZAAR",
+        "img": MeenaBazaar,
         "description": "React WebApp for online shopping",
         "tag": ['FrontEnd', 'Amzaone-clone', 'ReactJs', 'SCSS'],
         "id": "kabaar"
@@ -57,14 +73,7 @@ const data = [
         "tag": ['FrontEnd', 'Html5', 'Css3', 'Javascript'],
         "id": "BlackJack"
     },
-    {
-        "url": "https://juskask.netlify.app/",
-        "title": "JustAsk! ",
-        "img": JustAsk,
-        "description": "Mern Forum app (in Production) ",
-        "tag": ['FullStack', 'Html5', 'SCSS', 'Javascript', 'MERN'],
-        "id": "JustAsk"
-    },
+
 ]
 
 export default data;

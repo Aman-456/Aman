@@ -144,7 +144,7 @@ img {
   background: var(--secondary) !important;
   color: var(--primary) !important;
   border: 2px solid var(--primary) !important;
-  padding: 0.5em 2em;
+  padding: 0.3em 1.5em;
   margin: 0 0.2em;
   border-radius: 40px;
   transition: var(--transition3);
@@ -156,7 +156,7 @@ img {
 }
 a.btn {
   display: block;
-  padding: 0.5em 2em;
+  padding: 0.3em 1.5em;
   margin: 0 0.2em;
   color: var(--primary);
 }

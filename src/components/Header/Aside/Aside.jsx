@@ -2,7 +2,6 @@
 import { MdHome } from "react-icons/md";
 import { BsCodeSlash, BsFillPersonFill } from "react-icons/bs";
 import { RiContactsLine } from "react-icons/ri";
-
 import { Link } from "react-router-dom"
 
 
@@ -17,7 +16,7 @@ function Aside({ burger, aside, setopen, open }) {
                     onClick={() => {
                         burger.current.classList.toggle("active");
                         aside.current.classList.toggle(`${styles.aside__left}`);
-                        setopen(() => !open)
+                        setopen(!open)
                     }}
                 >
                     <Link to="/">
@@ -30,7 +29,7 @@ function Aside({ burger, aside, setopen, open }) {
                     onClick={() => {
                         burger.current.classList.toggle("active");
                         aside.current.classList.toggle(`${styles.aside__left}`);
-                        setopen(() => !open)
+                        setopen(!open)
 
                     }}                >
                     <Link to="/Projects">
@@ -43,7 +42,7 @@ function Aside({ burger, aside, setopen, open }) {
                     onClick={() => {
                         burger.current.classList.toggle("active");
                         aside.current.classList.toggle(`${styles.aside__left}`);
-                        setopen(() => !open)
+                        setopen(!open)
                     }}>
                     <Link to="/about">
                         <BsFillPersonFill className={styles.icon} />
@@ -55,6 +54,7 @@ function Aside({ burger, aside, setopen, open }) {
                     onClick={() => {
                         burger.current.classList.toggle("active");
                         aside.current.classList.toggle(`${styles.aside__left}`);
+                        setopen(!open)
                     }}                >
                     <Link to="/contact">
                         <RiContactsLine className={styles.icon} />
