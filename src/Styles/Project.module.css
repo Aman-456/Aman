@@ -12,10 +12,11 @@
   max-width: 800px;
   display: flex;
   align-items: center;
-  gap: 2.5em;
+  gap: 2em;
   border-radius: 1rem;
   min-height: 250px;
   /* padding: 0.5em; */
+  background-color: white;
 }
 
 .project .img_tag {
@@ -30,6 +31,7 @@
 .img_tag img {
   display: block;
   width: 100%;
+  min-width: 100%;
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
@@ -62,11 +64,15 @@
   margin-top: 0.15em;
   font-size: 0.8em;
 }
-.detail button {
-  margin: 0;
-  box-shadow: var(--shadow3);
-  width: max-content;
-  margin-top: 1em;
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 1rem;
+}
+.buttons button,
+.buttons a {
+  margin: 0 0 0 0 !important;
 }
 
 .detail button:hover {
@@ -104,7 +110,7 @@
   }
   .tags span {
     margin: 0 !important;
-    font-size: 10px;
+    font-size: 11px;
   }
   .detail {
     padding: 0.5rem 1rem 1rem 1rem;
@@ -112,5 +118,17 @@
   }
   .detail p {
     display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .buttons {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .buttons a,
+  .buttons button {
+    font-size: 0.9rem;
   }
 }

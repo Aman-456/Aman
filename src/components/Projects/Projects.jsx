@@ -1,10 +1,10 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { useState } from 'react'
 import data from "../../Data/data"
 import styles from "../../Styles/Project.module.css"
 import Iframe from '../Iframe/Iframe'
 import { Link } from "react-router-dom"
 function Projects({ list, project }) {
-
     const [link, setlink] = useState(null)
 
     return (
@@ -33,12 +33,22 @@ function Projects({ list, project }) {
                                             <h2 className={styles.title}>{item.title}</h2>
                                             <p>{item.description}</p>
                                             <div className={`flex ${styles.tags}`}>{item.tag?.map((e, i) => <span key={i}>{e}</span>)}</div>
-                                            <button
-                                                className="btn"
-                                                onClick={(e) => setlink(item.id)}
-                                            >
-                                                View me
-                                            </button>
+                                            <div className={styles.buttons} >
+                                                <button
+                                                    className="btn"
+                                                    onClick={(e) => setlink(item.id)}
+                                                >
+                                                    View here
+                                                </button>
+                                                <a
+
+                                                    href={item.url}
+                                                    className="btn"
+                                                    target={"_blank"}
+                                                >
+                                                    Open Link
+                                                </a>
+                                            </div>
                                             {
                                                 link === item.id && <Iframe url={item.url} func={setlink} />
                                             }
@@ -57,12 +67,22 @@ function Projects({ list, project }) {
                                         <h2 className={styles.title}>{item.title}</h2>
                                         <p>{item.description}</p>
                                         <div className={`flex ${styles.tags}`}>{item.tag?.map((e, i) => <span key={i}>{e}</span>)}</div>
-                                        <button
-                                            className="btn"
-                                            onClick={(e) => setlink(item.id)}
-                                        >
-                                            View me
-                                        </button>
+                                        <div className={styles.buttons} >
+                                            <button
+                                                className="btn"
+                                                onClick={(e) => setlink(item.id)}
+                                            >
+                                                View here
+                                            </button>
+                                            <a
+
+                                                href={item.url}
+                                                className="btn"
+                                                target={"_blank"}
+                                            >
+                                                Open Link
+                                            </a>
+                                        </div>
                                         {
                                             link === item.id && <Iframe url={item.url} func={setlink} />
                                         }

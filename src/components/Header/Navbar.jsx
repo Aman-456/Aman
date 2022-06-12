@@ -31,7 +31,7 @@ function Navbar() {
                             onClick={(e) => {
                                 e.currentTarget.classList.toggle("active");
                                 aside.current.classList.toggle(`${styles.aside__left}`);
-                                setopen(() => !open)
+                                setopen(!open)
                             }}
                         >
                             <span className="line1"></span>
@@ -56,7 +56,7 @@ function Navbar() {
                         onClick={() => {
                             aside.current.classList.toggle(`${styles.aside__left}`)
                             burger.current.classList.toggle("active")
-                            setopen(() => !open)
+                            setopen(!open)
                         }}>
                     </div>
                 }
