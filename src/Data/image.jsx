@@ -12,7 +12,7 @@ import blackjack from "../images/blackjack.webp"
 import JustAsk from "../images/JustAsk.PNG"
 import crofundsme from "../images/crofundsme.PNG"
 import pdf from "../Data/CV.pdf"
+import buisnessPortfolio from '../images/buisnessPortfolio.PNG'
 
-
-export const list1 = { JustAsk, crofundsme, homedecore, restaurantwp, MeenaBazaar, singlepage, hosting, portfolio, blackjack }
-export const list = { me, homedecore, restaurantwp, MeenaBazaar, singlepage, hosting, portfolio, Coding, cv, laptop, pdf }
+export const list1 = { JustAsk, crofundsme, restaurantwp, homedecore, buisnessPortfolio, MeenaBazaar, singlepage, hosting, portfolio, blackjack }
+export const list = { me, homedecore, buisnessPortfolio, restaurantwp, MeenaBazaar, singlepage, hosting, portfolio, Coding, cv, laptop, pdf, }

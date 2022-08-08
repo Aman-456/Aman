@@ -1,5 +1,5 @@
 import { list1 } from "./image"
-const { homedecore, MeenaBazaar, restaurantwp, singlepage, hosting, portfolio, blackjack, JustAsk, crofundsme } = list1
+const { homedecore, MeenaBazaar, restaurantwp, singlepage, hosting, portfolio, blackjack, JustAsk, crofundsme, buisnessPortfolio } = list1
 const data = [
     {
         "url": "https://justask1.netlify.app/",
@@ -15,7 +15,15 @@ const data = [
         "img": crofundsme,
         "description": "Mern Forum app  ",
         "tag": ["FrontEnd", "React-Js", "Javascript", "ANT-D", 'Html5', 'SCSS',],
-        "id": "JustAsk"
+        "id": "crofundsme"
+    },
+    {
+        "url": "https://usama-gamify.netlify.app/",
+        "title": "Buisness/Game Portfolio",
+        "img": buisnessPortfolio,
+        "description": "It is business Portolio, or It can be used as an individual Portfolio",
+        "tag": ['FullStack', 'MERN', 'ANTD', 'SCSS'],
+        "id": "Buisness/Game Portfolio"
     },
     {
         "url": "https://homedecore-1.netlify.app/",
@@ -69,6 +77,7 @@ const data = [
         "url": "https://blackjack-pokergame.netlify.app/",
         "title": "Black Jack Game",
         "img": blackjack,
+        // img: "",
         "description": "A simple Vanilla js game with a bit css touch ",
         "tag": ['FrontEnd', 'Html5', 'Css3', 'Javascript'],
         "id": "BlackJack"
@@ -81,25 +90,29 @@ export default data;
 
 export const educationdata = [
     {
+        datestart: "APRIL-10",
+        dateend: "NOW",
+        des: "JR. React-Js Developer at INTELGENCY , NUST Islamabad",
+    },
+    {
         datestart: "OCT-20",
         dateend: "january-21",
         des: "WEB intern at T4Tutorials.com",
     },
     {
-        datestart: "NOW",
-        dateend: "2018-2022",
-        des: "Currently enrolled in Bachleor's in computer science aimed for Artifical Intelligence",
-    },
-    {
         datestart: "Practice",
         dateend: "from 2k19",
-        des: "Currently enrolled in Bachleor's in computer science aimed for Artifical Intelligence",
-    }
+        des: "Started Practice in Web development",
+    },
+    {
+        datestart: "2018-2022",
+        dateend: "NOW",
+        des: "Enrolled in Bachleor's in computer science    ",
+    },
 ]
 
 export const aboutme = <div className="margin3">
     I have been in this field for quiet some time and with each day I strive for more and better. I am in love with this field. I take inspiration from resources out there on the internet and tries to make something out of it
-    <p>
-        My Motto and my speciality is front-end web devlopment , by taking any given desingn I turn it into reality
-    </p>
+    My Motto and my speciality is front-end web devlopment , by taking any given desingn I turn it into reality
+
 </div>

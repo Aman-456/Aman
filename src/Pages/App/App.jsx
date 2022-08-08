@@ -18,6 +18,7 @@ function App() {
         return () => window.removeEventListener("load");
     })
 
+
     return <div className='App' ref={app}>
         <Router>
             <Navbar />

@@ -4,7 +4,7 @@ import styles from "../../Styles/Testimonials.module.css"
 
 const data = [
     {
-        message: "Wating for this client response",
+        message: "It was a pleasure working on HomeDecore app, with Mr. Aman Ullah",
         name: "Stephan's B"
     },
     {

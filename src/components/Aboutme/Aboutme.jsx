@@ -17,6 +17,8 @@ function Aboutme() {
                     <div className={`${styles.para}`}>
                         {aboutme}
                     </div>
+
+
                     <div className={`mt ${styles.img}`}>
                         <img src={list.laptop} alt="" />
                     </div>

@@ -10,7 +10,10 @@ function SearchBar({ setproject }) {
             <input type="text" className={styles.SearchBar} ref={serach} />
             <button
                 className={`btn ${styles.btn}`}
-                onClick={() => setproject(serach.current.value.toLowerCase())}
+                onClick={() => {
+                    setproject(serach.current.value.toLowerCase())
+                    window.scrollTo(0, 250)
+                }}
             > Serach</button>
         </div >
     )
