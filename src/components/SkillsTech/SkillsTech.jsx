@@ -1,8 +1,9 @@
 import React from 'react'
 import styles from "../../Styles/skillss.module.css"
 
-import { SiTailwindcss, SiBootstrap, SiSass, SiCss3, SiHtml5, SiReact, SiVisualstudiocode, SiNotepadplusplus } from "react-icons/si";
+import { SiBootstrap, SiSass, SiCss3, SiHtml5, SiReact, SiVisualstudiocode, SiNotepadplusplus, SiJavascript } from "react-icons/si";
 import { FaGitSquare } from "react-icons/fa";
+import { AiOutlineAntDesign, AiFillApi } from "react-icons/ai";
 
 
 
@@ -17,9 +18,11 @@ export default function SkillsTech() {
                     <span> <SiHtml5 />Html5</span>
                     <span><SiCss3 />Css3</span>
                     <span><SiSass />SCSS</span>
-                    <span><SiBootstrap />Bootstrap</span>
-                    <span><SiTailwindcss />TailWind Css</span>
+                    <span><SiJavascript />JavaScript</span>
                     <span><SiReact />React Js</span>
+                    <span><SiBootstrap />Bootstrap</span>
+                    <span><AiOutlineAntDesign />ANT DESIGN</span>
+                    <span><AiFillApi />Rest API's</span>
                 </div>
                 <div className={` ${styles.tools} padding`}>
                     <h2 className="textcenter ">Tools</h2>

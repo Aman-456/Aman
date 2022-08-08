@@ -28,7 +28,7 @@ function Iframe({ url, func, img, seti }) {
                 {
                     img ?
                         <>
-                            < img className={styles.img} src={list.cv} alt="cv" />
+                            < img className={styles.img} src={list.cv} alt="cv" loading='lazy' />
                             <a
                                 className={styles.download}
                                 href={list.pdf}

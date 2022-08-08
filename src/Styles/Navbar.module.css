@@ -55,7 +55,8 @@
   padding: 0.3em 0.5em;
   border-radius: 50%;
   font-size: small;
-  top: 0px;
+  top: -7px;
+  right: 10px;
   z-index: 10 !important;
 }
 .aside {
