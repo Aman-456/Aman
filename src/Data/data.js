@@ -2,10 +2,10 @@ import { list1 } from "./image"
 const { homedecore, MeenaBazaar, restaurantwp, singlepage, hosting, portfolio, blackjack, JustAsk, crofundsme, buisnessPortfolio } = list1
 const data = [
     {
-        "url": "https://justask1.netlify.app/",
-        "title": "JustAsk! ",
+        "url": "https://justask.netlify.app/",
+        "title": "JustAsk!",
         "img": JustAsk,
-        "description": "Mern Forum app (in Production) ",
+        "description": "Mern Forum app (in Production)",
         "tag": ['FullStack', 'MERN', "React-Js", "Javascript", "Chakra-UI", 'Html5', 'SCSS',],
         "id": "JustAsk"
     },
