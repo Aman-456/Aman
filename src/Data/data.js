@@ -1,4 +1,5 @@
 import { list1 } from "./image"
+const noting = ""
 const { homedecore, MeenaBazaar, restaurantwp, singlepage, hosting, portfolio, blackjack, JustAsk, crofundsme, buisnessPortfolio } = list1
 const data = [
     {
