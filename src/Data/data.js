@@ -11,6 +11,14 @@ const data = [
         "id": "JustAsk"
     },
     {
+        "url": "http://spoflex.com/",
+        "title": "Spoflex",
+        "img": JustAsk,
+        "description": "Mern Forum app (in Production)",
+        "tag": ['FullStack', 'MERN', "React-Js", "ANT-D", "BOOSTRAP",],
+        "id": "Spoflex"
+    },
+    {
         "url": "https://crofundme.netlify.app/",
         "title": "CrofundsMe! ",
         "img": crofundsme,
