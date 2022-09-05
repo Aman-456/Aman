@@ -50,7 +50,7 @@ const data = [
         "id": "kabaar"
     },
     {
-        "url": "hhttps://workoutmemo.netlify.app",
+        "url": "https://workoutmemo.netlify.app",
         "title": "Mern Memo App",
         "img": Memo,
         "description": "MERN App for creating memos, todolist, workout etc",
