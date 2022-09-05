@@ -1,20 +1,19 @@
 import { list1 } from "./image"
-const noting = ""
-const { homedecore, MeenaBazaar, restaurantwp, singlepage, hosting, portfolio, blackjack, JustAsk, crofundsme, buisnessPortfolio } = list1
+const { homedecore, MeenaBazaar, restaurantwp, singlepage, hosting, portfolio, blackjack, JustAsk, crofundsme, buisnessPortfolio, spoflex, Memo } = list1
 const data = [
     {
         "url": "https://justask.netlify.app/",
         "title": "JustAsk!",
         "img": JustAsk,
-        "description": "Mern Forum app (in Production)",
-        "tag": ['FullStack', 'MERN', "React-Js", "Javascript", "Chakra-UI", 'Html5', 'SCSS',],
+        "description": "Mern FORUM app",
+        "tag": ['FullStack', 'MERN', "React-Js", "Javascript", "Chakra-UI", 'Html5', 'SCSS', 'Quora Clone'],
         "id": "JustAsk"
     },
     {
         "url": "http://spoflex.com/",
         "title": "Spoflex",
-        "img": JustAsk,
-        "description": "Mern Forum app (in Production)",
+        "img": spoflex,
+        "description": "Mern SPORTS FORUM  (in Production)",
         "tag": ['FullStack', 'MERN', "React-Js", "ANT-D", "BOOSTRAP",],
         "id": "Spoflex"
     },
@@ -49,6 +48,14 @@ const data = [
         "description": "React WebApp for online shopping",
         "tag": ['FrontEnd', 'Amzaone-clone', 'ReactJs', 'SCSS'],
         "id": "kabaar"
+    },
+    {
+        "url": "hhttps://workoutmemo.netlify.app",
+        "title": "Mern Memo App",
+        "img": Memo,
+        "description": "MERN App for creating memos, todolist, workout etc",
+        "tag": ['FullStack', 'MERN', 'ReactJs', 'CSS3'],
+        "id": "Memo"
     },
     {
         "url": "https://multiservtechnologies.com/webpizza/",
