@@ -25,14 +25,14 @@ const data = [
         "tag": ["FrontEnd", "React-Js", "Javascript", "ANT-D", 'Html5', 'SCSS',],
         "id": "crofundsme"
     },
-    {
-        "url": "https://usama-gamify.netlify.app/",
-        "title": "Buisness/Game Portfolio",
-        "img": buisnessPortfolio,
-        "description": "It is business Portolio, or It can be used as an individual Portfolio",
-        "tag": ['FullStack', 'MERN', 'ANTD', 'SCSS'],
-        "id": "Buisness/Game Portfolio"
-    },
+    // {
+    //     "url": "https://usama-gamify.netlify.app/",
+    //     "title": "Buisness/Game Portfolio",
+    //     "img": buisnessPortfolio,
+    //     "description": "It is business Portolio, or It can be used as an individual Portfolio",
+    //     "tag": ['FullStack', 'MERN', 'ANTD', 'SCSS'],
+    //     "id": "Buisness/Game Portfolio"
+    // },
     {
         "url": "https://homedecore-1.netlify.app/",
         "title": "Home Decore",

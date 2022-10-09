@@ -16,5 +16,7 @@ import buisnessPortfolio from '../images/buisnessPortfolio.PNG'
 import spoflex from "../images/spoflex.PNG"
 import Memo from "../images/Memo.PNG"
 
-export const list1 = { JustAsk, crofundsme, restaurantwp, homedecore, buisnessPortfolio, MeenaBazaar, singlepage, hosting, portfolio, blackjack, spoflex, Memo }
+// export const list1 = { JustAsk, crofundsme, restaurantwp, homedecore, buisnessPortfolio, MeenaBazaar, singlepage, hosting, portfolio, blackjack, spoflex, Memo }
+
+export const list1 = { JustAsk, crofundsme, restaurantwp, homedecore, MeenaBazaar, singlepage, hosting, portfolio, blackjack, spoflex, Memo }
 export const list = { me, homedecore, buisnessPortfolio, restaurantwp, MeenaBazaar, singlepage, hosting, portfolio, Coding, cv, laptop, pdf, }
