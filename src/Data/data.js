@@ -1,5 +1,6 @@
 import { list1 } from "./image"
-const { homedecore, MeenaBazaar, restaurantwp, singlepage, hosting, portfolio, blackjack, JustAsk, crofundsme, buisnessPortfolio, spoflex, Memo } = list1
+// const { homedecore, MeenaBazaar, restaurantwp, singlepage, hosting, portfolio, blackjack, JustAsk, crofundsme, buisnessPortfolio, spoflex, Memo } = list1
+const { homedecore, MeenaBazaar, restaurantwp, singlepage, hosting, portfolio, blackjack, JustAsk, crofundsme, spoflex, Memo } = list1
 const data = [
     {
         "url": "https://justask.netlify.app/",
