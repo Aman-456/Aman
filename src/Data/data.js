@@ -1,6 +1,6 @@
 import { list1 } from "./image"
-// const { homedecore, MeenaBazaar, restaurantwp, singlepage, hosting, portfolio, blackjack, JustAsk, crofundsme, buisnessPortfolio, spoflex, Memo } = list1
-const { homedecore, MeenaBazaar, restaurantwp, singlepage, hosting, portfolio, blackjack, JustAsk, crofundsme, spoflex, Memo } = list1
+const { homedecore, MeenaBazaar, restaurantwp, singlepage, hosting, portfolio, blackjack, JustAsk, crofundsme, buisnessPortfolio, spoflex, Memo, Crofundsmeprod } = list1
+// const { homedecore, MeenaBazaar, restaurantwp, singlepage, hosting, portfolio, blackjack, JustAsk, crofundsme, spoflex, Memo } = list1
 const data = [
     {
         "url": "https://justask.netlify.app/",
@@ -18,22 +18,31 @@ const data = [
         "tag": ['FullStack', 'MERN', "React-Js", "ANT-D", "BOOSTRAP",],
         "id": "Spoflex"
     },
+
     {
         "url": "https://crofundme.netlify.app/",
-        "title": "CrofundsMe! ",
+        "title": "CrofundsMe FrontEnd",
         "img": crofundsme,
-        "description": "Mern Forum app  ",
+        "description": "React CrowdFunding App",
         "tag": ["FrontEnd", "React-Js", "Javascript", "ANT-D", 'Html5', 'SCSS',],
         "id": "crofundsme"
     },
-    // {
-    //     "url": "https://usama-gamify.netlify.app/",
-    //     "title": "Buisness/Game Portfolio",
-    //     "img": buisnessPortfolio,
-    //     "description": "It is business Portolio, or It can be used as an individual Portfolio",
-    //     "tag": ['FullStack', 'MERN', 'ANTD', 'SCSS'],
-    //     "id": "Buisness/Game Portfolio"
-    // },
+    {
+        "url": "https://crofundsme.org/",
+        "title": "CrofundsMe",
+        "img": Crofundsmeprod,
+        "description": "MERN CrowdFunding App",
+        "tag": ["FrontEnd", "React-Js", "Javascript", "ANT-D", 'Html5', 'SCSS',],
+        "id": "crofundsme"
+    },
+    {
+        "url": "https://usama-gamify.netlify.app/",
+        "title": "Buisness/Game Portfolio",
+        "img": buisnessPortfolio,
+        "description": "It is business Portolio, or It can be used as an individual Portfolio",
+        "tag": ['FullStack', 'MERN', 'ANTD', 'SCSS'],
+        "id": "Buisness/Game Portfolio"
+    },
     {
         "url": "https://homedecore-1.netlify.app/",
         "title": "Home Decore",
