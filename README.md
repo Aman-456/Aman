@@ -11,7 +11,7 @@ Here are some ideas to get you started:
 - :smile: Pronouns: ...
 - :zap: Fun fact: ...
 -->
-- :eyes: I am Matteo, born in 2000 in Pakistan
+- :eyes: I am Aman
 ### Tech Stack
 #### Programming Languages
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
