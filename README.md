@@ -34,6 +34,7 @@ Here are some ideas to get you started:
 
 #### Backend
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![Google Cloud Functions](https://img.shields.io/badge/Google%20Cloud%20Functions-%234ea94b.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 
 #### Tools & Version Control
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
