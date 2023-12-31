@@ -20,7 +20,9 @@
   color: var(--secondary) !important;
   border-radius: 0.5rem;
   position: relative;
-  min-height: 100px;
+  min-height: 90px;
+  display: flex;
+  align-items: center;
 }
 .right::before {
   position: absolute;

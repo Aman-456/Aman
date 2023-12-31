@@ -11,7 +11,7 @@
   z-index: 50 !important;
   box-shadow: var(--shadow1);
   left: 50%;
-  width: min(100%, 1400px);
+  width: min(100%, 1800px);
   transform: translateX(-50%);
 }
 .navbar h3 {
@@ -81,7 +81,7 @@
 }
 .blur {
   position: fixed;
-  width: 94.2vw;
+  width: 100.2vw;
   height: 120vh;
   background-color: rgba(0, 0, 0, 0.6);
   left: 0%;

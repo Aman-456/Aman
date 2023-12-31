@@ -24,7 +24,8 @@
   color: white;
   padding: 0.5em 0.5em;
 }
-.SkillsTech span svg {
+.SkillsTech span svg,
+.SkillsTech span img {
   font-size: 2em;
   margin-right: 1em;
 }

@@ -125,7 +125,7 @@ img {
   margin: 0 auto;
 }
 .container-f {
-  width: min(100%, 1400px);
+  width: min(100%, 1800px);
   transition: var(--transition3);
   text-transform: capitalize;
   margin: 0 auto;
