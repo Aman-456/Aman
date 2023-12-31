@@ -6,7 +6,7 @@ import singlepage from "../images/1pager.webp";
 import hosting from "../images/hosting.png";
 import portfolio from "../images/portfolio.webp";
 import Coding from "../images/coding.jpg";
-import cv from "../images/cv.png";
+import cv from "../images/cv.PNG";
 import laptop from "../images/laptop.jpeg";
 import blackjack from "../images/blackjack.webp";
 import JustAsk from "../images/JustAsk.PNG";
