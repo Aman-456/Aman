@@ -15,7 +15,7 @@ import {
 import chatgpt from "../../images/chatgpt.png";
 
 import { FaGithub, FaGitSquare } from "react-icons/fa";
-import { AiOutlineAntDesign, AiFillApi } from "react-icons/ai";
+import { AiOutlineAntDesign } from "react-icons/ai";
 
 export default function SkillsTech() {
   const arrSkills = [

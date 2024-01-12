@@ -17,11 +17,17 @@ import spoflex from "../images/spoflex.PNG";
 import Memo from "../images/Memo.PNG";
 import Crofundsmeprod from "../images/crofundsmeprod.PNG";
 import playintraverseio from "../images/play.intraverse.io.PNG";
+import directportal from "../images/directportal.PNG";
+import mysterymadness from "../images/mysterymadness.PNG";
+import aztechzone from "../images/aztechzone.PNG";
 
 // export const list1 = { JustAsk, crofundsme, restaurantwp, homedecore, buisnessPortfolio, MeenaBazaar, singlepage, hosting, portfolio, blackjack, spoflex, Memo }
 
 export const list1 = {
   playintraverseio,
+  directportal,
+  mysterymadness,
+  aztechzone,
   JustAsk,
   crofundsme,
   homedecore,
