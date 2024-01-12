@@ -40,7 +40,6 @@ const data = [
     img: aztechzone,
     description: "MERN Stack web app",
     tag: [
-      "Web3",
       "FullStack",
       "React-Js",
       "Javascript",
@@ -65,7 +64,7 @@ const data = [
     img: mysterymadness,
     description:
       "Web3 based quiz dapp integrated with solana and ethereum chains",
-    tag: ["FullStack", "NextJs", "Tailwind", "Firebase"],
+    tag: ["Web3", "FullStack", "NextJs", "Tailwind", "Firebase"],
     id: "mysterymadness",
   },
   // {
