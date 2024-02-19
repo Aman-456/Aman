@@ -20,6 +20,7 @@ import playintraverseio from "../images/play.intraverse.io.PNG";
 import directportal from "../images/directportal.PNG";
 import mysterymadness from "../images/mysterymadness.PNG";
 import aztechzone from "../images/aztechzone.PNG";
+import travel from "../images/travel.jpg";
 
 // export const list1 = { JustAsk, crofundsme, restaurantwp, homedecore, buisnessPortfolio, MeenaBazaar, singlepage, hosting, portfolio, blackjack, spoflex, Memo }
 
@@ -37,9 +38,10 @@ export const list1 = {
   portfolio,
   blackjack,
   spoflex,
-  //   Memo,
+  Memo,
   Crofundsmeprod,
   buisnessPortfolio,
+  travel,
 };
 export const list = {
   playintraverseio,

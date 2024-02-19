@@ -21,6 +21,7 @@
 
 .project .img_tag {
   flex-basis: 70%;
+  width: 70%;
   overflow: hidden;
   height: 250px;
   border-top-left-radius: 1rem;

@@ -14,10 +14,19 @@ const {
   directportal,
   mysterymadness,
   aztechzone,
+  travel,
   // Crofundsmeprod,
 } = list1;
 // const { homedecore, MeenaBazaar,  , singlepage, hosting, portfolio, blackjack, JustAsk, crofundsme, spoflex, Memo } = list1
 const data = [
+  {
+    url: "https://travelapp-alpha.vercel.app/",
+    title: "Travel App",
+    img: travel,
+    description: "Next React app",
+    tag: ["NextJs", "ReactJs", "Tailwind"],
+    id: "Travel App",
+  },
   {
     url: "https://play.intraverse.io/",
     title: "Intraverse",
