@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Iframe from "../Iframe/Iframe";
 import Aside from "./Aside/Aside";
 
-import { list1 } from "../../Data/image";
+import data from "../../Data/data";
 
 function Navbar() {
   const ref = useRef(null);
@@ -54,7 +54,7 @@ function Navbar() {
           <div className={`flex ${styles.right}`}>
             <Link className={styles.right__btn} to="/projects">
               Projects
-              <span className={styles.number}>{Object.keys(list1).length}</span>
+              <span className={styles.number}>{data.length}</span>
             </Link>
             <button className={styles.right__btn} onClick={() => setcv(true)}>
               cv
