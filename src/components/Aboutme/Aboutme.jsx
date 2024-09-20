@@ -1,6 +1,5 @@
 import React from "react";
 import { aboutme } from "../../Data/data";
-import RecentWork from "../../components/RecentWork/RecentWork";
 import CTA from "../../components/CTA/CTA";
 import styles from "../../Styles/Aboutme.module.css";
 

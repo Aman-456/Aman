@@ -1,12 +1,9 @@
-import { list1 } from "./image";
+import { list } from "./image";
 const {
   homedecore,
-  MeenaBazaar,
   singlepage,
   hosting,
-  portfolio,
   blackjack,
-  JustAsk,
   crofundsme,
   buisnessPortfolio,
   spoflex,
@@ -15,15 +12,40 @@ const {
   mysterymadness,
   aztechzone,
   travel,
-  // Crofundsmeprod,
-} = list1;
-// const { homedecore, MeenaBazaar,  , singlepage, hosting, portfolio, blackjack, JustAsk, crofundsme, spoflex, Memo } = list1
+  streetfood,
+  cricmoney,
+  ballcontrol,
+} = list;
 const data = [
+  {
+    url: "street-food-gamma.vercel.app/",
+    title: "Street Food",
+    img: streetfood,
+    description: "A multivendor food street app",
+    tag: ["FullStack", "React-Js", "Javascript", "MUI", "Express", "Mongodb"],
+    id: "streetfood",
+  },
+  {
+    url: "https://www.crickmoney.com/",
+    title: "Cricmoney",
+    img: cricmoney,
+    description: "Cricmoney - A Nexus Games Initiative",
+    tag: ["NextJs", "ReactJs", "Tailwind", "Mongodb", "FullStack"],
+    id: "Cricmoney",
+  },
+  {
+    url: "https://ball-contrl.onrender.com",
+    title: "Ball Contrl",
+    img: ballcontrol,
+    description: "WOMEN'S & GIRLS FOOTBALL",
+    tag: ["FullStack", "React-Js", "Javascript", "MUI", "Express", "Mongodb"],
+    id: "ballcontrol",
+  },
   {
     url: "https://travelapp-alpha.vercel.app/",
     title: "Travel App",
     img: travel,
-    description: "Next React app",
+    description: "Next app",
     tag: ["NextJs", "ReactJs", "Tailwind"],
     id: "Travel App",
   },
@@ -60,7 +82,8 @@ const data = [
     id: "aztechzone",
   },
   {
-    url: "https://directportal.vercel.app/",
+    // url: "https://directportal.vercel.app/",
+    url: "http://89.116.32.31:5175/",
     title: "Direct Portal",
     img: directportal,
     description: "Projects Managment software for PK (development)",
@@ -76,25 +99,10 @@ const data = [
     tag: ["Web3", "FullStack", "NextJs", "Tailwind", "Firebase"],
     id: "mysterymadness",
   },
-  // {
-  //   url: "https://justask.netlify.app/",
-  //   title: "JustAsk!",
-  //   img: JustAsk,
-  //   description: "Mern FORUM app",
-  //   tag: [
-  //     "FullStack",
-  //     "MERN",
-  //     "React-Js",
-  //     "Javascript",
-  //     "Chakra-UI",
-  //     "Html5",
-  //     "SCSS",
-  //     "Quora Clone",
-  //   ],
-  //   id: "JustAsk",
-  // },
+
   {
-    url: "http://199.192.23.58:5001",
+    // url: "http://199.192.23.58:5001",
+    url: "spoflex.com",
     title: "Spoflex",
     img: spoflex,
     description: "Mern SPORTS FORUM  (in Development)",
@@ -110,14 +118,7 @@ const data = [
     tag: ["FrontEnd", "React-Js", "Javascript", "ANT-D", "Html5", "SCSS"],
     id: "crofundsme",
   },
-  // {
-  //   url: "https://crofundsme.org/",
-  //   title: "CrofundsMe",
-  //   img: Crofundsmeprod,
-  //   description: "MERN CrowdFunding App",
-  //   tag: ["FrontEnd", "React-Js", "Javascript", "ANT-D", "Html5", "SCSS"],
-  //   id: "crofundssme",
-  // },
+
   {
     url: "https://usama-gamify.netlify.app/",
     title: "Buisness/Game Portfolio",
@@ -135,31 +136,7 @@ const data = [
     tag: ["FrontEnd", "ReactJs", "Firebase", "SCSS"],
     id: "foodpoint",
   },
-  {
-    url: "https://the-sellpoint.netlify.app/",
-    title: "MEENA BAZAAR",
-    img: MeenaBazaar,
-    description: "React WebApp for online shopping",
-    tag: ["FrontEnd", "Amzaone-clone", "ReactJs", "SCSS"],
-    id: "kabaar",
-  },
-  // {
-  //   url: "https://workoutmemo.netlify.app",
-  //   title: "Mern Memo App",
-  //   img: Memo,
-  //   description: "MERN App for creating memos, todolist, workout etc",
-  //   tag: ["FullStack", "MERN", "ReactJs", "CSS3"],
-  //   id: "Memo",
-  // },
 
-  {
-    url: "https://react-portfolio01.netlify.app/",
-    title: "Portfolio",
-    img: portfolio,
-    description: "A Dummy SuperFast Portfolio with Scroll-Snap ",
-    tag: ["ReactJs", "SCSS"],
-    id: "portfolio",
-  },
   {
     url: "https://1pager.netlify.app/",
     title: "Landing Page 1",

@@ -3,7 +3,6 @@ import React, { useRef, useState } from "react";
 import styles from "../../Styles/Hero.module.css";
 import { FaAngleDoubleDown } from "react-icons/fa";
 import Iframe from "../Iframe/Iframe";
-import { list } from "../../Data/image";
 function Hero() {
   const btn = useRef(null);
   const hero = useRef(null);
@@ -44,9 +43,6 @@ function Hero() {
             </a>
           </div>
         </div>
-        {/* <div className={`${styles.right} flex `}>
-          <img src={list.me} alt="" className={``} />
-        </div> */}
       </div>
       {iframe && <Iframe img={iframe} seti={setiframe} />}
     </div>
