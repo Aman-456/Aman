@@ -18,7 +18,7 @@ const {
 } = list;
 const data = [
   {
-    url: "street-food-gamma.vercel.app/",
+    url: "https://street-food-gamma.vercel.app/",
     title: "Street Food",
     img: streetfood,
     description: "A multivendor food street app",
@@ -34,7 +34,7 @@ const data = [
     id: "Cricmoney",
   },
   {
-    url: "https://ball-contrl.onrender.com",
+    url: "https://ball-contrl.onrender.com/",
     title: "Ball Contrl",
     img: ballcontrol,
     description: "WOMEN'S & GIRLS FOOTBALL",
