@@ -54,15 +54,7 @@ const data = [
     title: "Intraverse",
     img: playintraverseio,
     description: "Web3 DAPP",
-    tag: [
-      "Web3",
-      "FullStack",
-      "React-Js",
-      "Javascript",
-      "ANTD",
-      "Firebase",
-      "SCSS",
-    ],
+    tag: ["Web3", "FullStack", "React-Js", "Javascript", "ANTD", "Firebase", "SCSS"],
     id: "intraverse",
   },
   {
@@ -70,15 +62,7 @@ const data = [
     title: "AZ Techzone",
     img: aztechzone,
     description: "MERN Stack web app",
-    tag: [
-      "FullStack",
-      "React-Js",
-      "Javascript",
-      "MUI",
-      "bootstrap",
-      "Express",
-      "Mongodb",
-    ],
+    tag: ["FullStack", "React-Js", "Javascript", "MUI", "bootstrap", "Express", "Mongodb"],
     id: "aztechzone",
   },
   {
@@ -94,15 +78,14 @@ const data = [
     url: "https://mysterymadness.co/",
     title: "Mystery Madness",
     img: mysterymadness,
-    description:
-      "Web3 based quiz dapp integrated with solana and ethereum chains",
+    description: "Web3 based quiz dapp integrated with solana and ethereum chains",
     tag: ["Web3", "FullStack", "NextJs", "Tailwind", "Firebase"],
     id: "mysterymadness",
   },
 
   {
     // url: "http://199.192.23.58:5001",
-    url: "spoflex.com",
+    url: "https://www.spoflex.com",
     title: "Spoflex",
     img: spoflex,
     description: "Mern SPORTS FORUM  (in Development)",
@@ -123,8 +106,7 @@ const data = [
     url: "https://usama-gamify.netlify.app/",
     title: "Buisness/Game Portfolio",
     img: buisnessPortfolio,
-    description:
-      "It is business Portolio, or It can be used as an individual Portfolio",
+    description: "It is business Portolio, or It can be used as an individual Portfolio",
     tag: ["FullStack", "MERN", "ANTD", "SCSS"],
     id: "Buisness/Game Portfolio",
   },
@@ -196,10 +178,8 @@ export const educationdata = [
 
 export const aboutme = (
   <div className="margin3">
-    I have been in this field for quiet some time and with each day I strive for
-    more and better. I am in love with this field. I take inspiration from
-    resources out there on the internet and tries to make something out of it My
-    Motto and my speciality is web devlopment , by taking any given desingn I
-    turn it into reality
+    I have been in this field for quiet some time and with each day I strive for more and better. I am in love with this field. I
+    take inspiration from resources out there on the internet and tries to make something out of it My Motto and my speciality is
+    web devlopment , by taking any given desingn I turn it into reality
   </div>
 );
