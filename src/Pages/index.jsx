@@ -1,13 +1,13 @@
 import React from "react";
 import "../../Styles/App.css";
-import Navbar from "../../components/Header/Navbar";
-import Footer from "../../components/Footer";
-import E404 from "../../components/404/E404";
-import ScrollToTop from "../../components/ScrollToTop";
-import Portfolio from "../Portfolio";
-import ProjectPage from "../ProjectPage";
-import About from "../About";
-import Contact from "../Contact";
+import Navbar from "../components/Header/Navbar";
+import Footer from "../components/Footer";
+import E404 from "../components/404/E404";
+import ScrollToTop from "../components/ScrollToTop";
+import Portfolio from "./Portfolio";
+import ProjectPage from "./ProjectPage";
+import About from "./About";
+import Contact from "./Contact";
 
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 function App() {
