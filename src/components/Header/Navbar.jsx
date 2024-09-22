@@ -1,8 +1,8 @@
 import React, { useRef, useState, useEffect } from "react";
 import styles from "../../Styles/Navbar.module.css";
 import { Link } from "react-router-dom";
-import Iframe from "../Iframe/Iframe";
-import Aside from "./Aside/Aside";
+import Iframe from "../Iframe";
+import Aside from "./Aside";
 
 import data from "../../Data/data";
 
@@ -12,21 +12,12 @@ function Navbar() {
   const burger = useRef(null);
   const [open, setopen] = useState(false);
   const [cv, setcv] = useState(false);
-  useEffect(
-    () => (aside.current.style.top = ref?.current.clientHeight + "px"),
-    []
-  );
-  useEffect(
-    () =>
-      (aside.current.style.left =
-        ref.current.getBoundingClientRect().left + "px"),
-    [open]
-  );
+  useEffect(() => (aside.current.style.top = ref?.current.clientHeight + "px"), []);
+  useEffect(() => (aside.current.style.left = ref.current.getBoundingClientRect().left + "px"), [open]);
   window.addEventListener("resize", () => {
     if (aside.current) {
       aside.current.style.top = ref.current.clientHeight + "px";
-      aside.current.style.left =
-        ref.current.getBoundingClientRect().left + "px";
+      aside.current.style.left = ref.current.getBoundingClientRect().left + "px";
     }
   });
   return (

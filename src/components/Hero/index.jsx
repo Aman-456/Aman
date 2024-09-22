@@ -2,7 +2,7 @@
 import React, { useRef, useState } from "react";
 import styles from "../../Styles/Hero.module.css";
 import { FaAngleDoubleDown } from "react-icons/fa";
-import Iframe from "../Iframe/Iframe";
+import Iframe from "../Iframe";
 function Hero() {
   const btn = useRef(null);
   const hero = useRef(null);
@@ -19,9 +19,7 @@ function Hero() {
       <div className={`container margin3 flex ${styles.Hero__container}`}>
         <div className={`${styles.left} flex `}>
           <div className={`flex ${styles.left__container}`}>
-            <p className={styles.hero__tag}>
-              My Passion Is To Create Top Of The Mark Designs For You
-            </p>
+            <p className={styles.hero__tag}>My Passion Is To Create Top Of The Mark Designs For You</p>
             <div className={styles.left__container__textfield}>
               <p>Aman Ullah</p>
               <p>

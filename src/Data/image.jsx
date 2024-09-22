@@ -1,8 +1,6 @@
 import homedecore from "../images/homedecore.webp";
-import restaurantwp from "../images/restaurantwp.webp";
 import singlepage from "../images/1pager.webp";
 import hosting from "../images/hosting.png";
-import portfolio from "../images/portfolio.webp";
 import Coding from "../images/coding.jpg";
 import cv from "../images/cv.PNG";
 import laptop from "../images/laptop.jpeg";
@@ -40,9 +38,6 @@ export const list = {
 
   /*  */
 
-  restaurantwp,
-
-  portfolio,
   Coding,
   cv,
   pdf,

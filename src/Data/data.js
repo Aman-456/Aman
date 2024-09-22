@@ -1,4 +1,5 @@
 import { list } from "./image";
+
 const {
   homedecore,
   singlepage,
@@ -16,6 +17,7 @@ const {
   cricmoney,
   ballcontrol,
 } = list;
+
 const data = [
   {
     url: "https://street-food-gamma.vercel.app/",
@@ -118,7 +120,6 @@ const data = [
     tag: ["FrontEnd", "ReactJs", "Firebase", "SCSS"],
     id: "foodpoint",
   },
-
   {
     url: "https://1pager.netlify.app/",
     title: "Landing Page 1",
