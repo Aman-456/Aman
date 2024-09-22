@@ -4,11 +4,9 @@ import SearchBar from "../components/SearchBar";
 function ProjectPage() {
   const [project, setproject] = React.useState(null);
   return (
-    <div>
-      <div className="m7">
-        <SearchBar setproject={setproject} />
-        <Projects list={100} project={project} query={true} />
-      </div>
+    <div className="m7">
+      <SearchBar setproject={setproject} />
+      <Projects list={100} project={project} query={true} />
     </div>
   );
 }

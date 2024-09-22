@@ -1,16 +1,7 @@
 import React from "react";
 import styles from "../../Styles/skillss.module.css";
 
-import {
-  SiReact,
-  SiVisualstudiocode,
-  SiJavascript,
-  SiPostman,
-  SiNextdotjs,
-  SiMui,
-  SiExpress,
-  SiFirebase,
-} from "react-icons/si";
+import { SiReact, SiVisualstudiocode, SiJavascript, SiPostman, SiNextdotjs, SiMui, SiExpress, SiFirebase } from "react-icons/si";
 
 import chatgpt from "../../images/chatgpt.png";
 
