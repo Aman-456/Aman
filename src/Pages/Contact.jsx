@@ -1,8 +1,9 @@
 import React from "react";
+import "../Styles/ContactForm.module.css";
 
 function Contact() {
   return (
-    <>
+    <div>
       <h1 className="textcenter padding " style={{ margin: "3em" }}>
         Get a word
       </h1>
@@ -22,7 +23,7 @@ function Contact() {
           Send
         </button>
       </form>
-    </>
+    </div>
   );
 }
 

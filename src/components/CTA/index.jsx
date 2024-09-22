@@ -1,8 +1,7 @@
+import styles from "../../Styles/CTA.module.css";
 import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import Iframe from "../Iframe";
-
-import styles from "../../Styles/CTA.module.css";
 
 function CTA() {
   const btn = useRef(null);

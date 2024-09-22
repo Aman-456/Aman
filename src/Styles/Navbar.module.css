@@ -11,7 +11,7 @@
   z-index: 50 !important;
   box-shadow: var(--shadow1);
   left: 50%;
-  width: min(100%, 1800px);
+  width: min(101%, 1800px);
   transform: translateX(-50%);
 }
 .navbar h3 {
@@ -69,7 +69,8 @@
   color: white;
   height: 100vh;
   box-shadow: var(--shadow1);
-  transition: var(--transition2);
+  /* transition: var(--transition2); */
+  transition: position 0.5s ease;
   align-items: flex-start;
   opacity: 0;
   z-index: -1;
